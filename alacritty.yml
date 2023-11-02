@@ -1,0 +1,31 @@
+schemes:
+  shades_of_purple: &shades_of_purple
+    primary:
+      background: '#2d2b55'
+      foreground: '#e1efff'
+  
+    cursor:
+      text: CellBackground
+      cursor: CellForeground
+  
+    normal:
+      black: '#000000'
+      red: '#ff628c'
+      green: '#a5ff90'
+      yellow: '#ffff60'
+      blue: '#a599e9'
+      magenta: '#ff80ff'
+      cyan: '#9EFFFF'
+      white: '#DBDBE0'
+  
+    bright:
+      black: '#5C5C61'
+      red: '#FF000D'
+      green: '#3ad900'
+      yellow: '#FAD000'
+      blue: '#6943FF'
+      magenta: '#b362ff'
+      cyan: '#add8e6'
+      white: '#FFFFFF'
+
+colors: *shades_of_purple
